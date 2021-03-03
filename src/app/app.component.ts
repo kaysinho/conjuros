@@ -7,7 +7,7 @@ declare var M:any
 })
 export class AppComponent {
   title = 'altares';
-
+  year = new Date().getFullYear()
   constructor(){
     
     setTimeout(() => {
