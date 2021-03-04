@@ -1,0 +1,21 @@
+{
+    "servicios": [
+        {
+            "titulo":"Protección",
+            "imagen": "assets/imagenes/servicios/tetragranmaton.jpg"
+        },
+        {
+            "titulo":"Amor",
+            "imagen": "assets/imagenes/servicios/san-antonio-de-padua.jpeg"
+        },
+        {
+            "titulo":"Salud",
+            "imagen": "assets/imagenes/servicios/rosa mistica.jpg"
+        },
+        {
+            "titulo":"Prosperidad",
+            "imagen": "assets/imagenes/servicios/san-cayetano.jpg"
+        }
+
+    ]
+}
