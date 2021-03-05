@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="row">
+      <div class="col m4 s12">
+        <h5 class="white-text">Conjuros</h5>
+        <ul>
+          <li>
+            <a class="grey-text text-lighten-3" target="_blank" href="https://github.com/kaysinho">Webmaster</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="#">Carrera 45 # 10 -29 Medellín</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="mailto:example@email.com">Correo</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col m4 s12">
+        <h5 class="white-text">Menu Principal</h5>
+        <ul>
+          <li *ngFor="let link of links"><a class="grey-text text-lighten-3" [routerLink]="link.url">{{ link.titulo}}</a></li>
+
+        </ul>
+      </div>
+      <div class="col m4 s12">
+        <h5 class="white-text">Servicios</h5>
+        <ul>
+          <li *ngFor="let ser of services">
+            <a class="grey-text text-lighten-3" href="#!">{{ ser.titulo }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-copyright">
+    <div class="container">
+      © {{ year }} Copyright - Todos los derechos reservados
+    </div>
+  </div>

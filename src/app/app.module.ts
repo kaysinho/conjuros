@@ -8,6 +8,10 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ServiciosComponent } from './componentes/servicios/servicios.component';
 import { BotonWhatsappComponent } from './componentes/boton-whatsapp/boton-whatsapp.component';
+import { FooterComponent } from './componentes/footer/footer.component';
+import { HomeComponent } from './pages/home/home.component';
+import { PageComponent } from './pages/page/page.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { BotonWhatsappComponent } from './componentes/boton-whatsapp/boton-whats
     MenuComponent,
     BannerComponent,
     ServiciosComponent,
-    BotonWhatsappComponent
+    BotonWhatsappComponent,
+    FooterComponent,
+    HomeComponent,
+    PageComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/services/data/data.service';
 
 @Component({
   selector: 'app-menu',
@@ -6,10 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
-
-  constructor() { }
+  links : Array<any> = []
+  constructor(private data:DataService) { }
 
   ngOnInit(): void {
+    this.getLinks()
+  }
+
+  getLinks(){
+    this.data.getLinks()
+      .subscribe( data => {
+        this.links = data.links;
+      })
   }
 
 }
