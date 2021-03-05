@@ -1,1 +1,16 @@
-<p>page works!</p>
+<div class="container">
+
+    <h1>{{ title }}</h1>
+    <div class="row">
+        <div class="col s12 m7">
+            <ul style="list-style: disc !important;">
+                <li *ngFor="let d of description">{{ d }}</li>
+                <br>
+            </ul>
+        </div>
+        <div class="col s12 m5">
+            <img class="materialboxed" width="400" [src]="imageUrl">
+
+        </div>
+    </div>
+</div>

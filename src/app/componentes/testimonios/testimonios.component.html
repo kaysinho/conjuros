@@ -1,0 +1,15 @@
+<div class="col s12 m4" *ngFor="let testimonio of testimonios">
+    <div class="center promo">
+      <img
+        class="imagen-comentario"
+        [src]="testimonio.imagen"
+      />
+      <h5 class="promo-caption">{{ testimonio.titulo }}</h5>
+      <p class="light center">
+        {{ testimonio.descripcion[0] }}
+      </p>
+    </div>
+  </div>
+
+
+

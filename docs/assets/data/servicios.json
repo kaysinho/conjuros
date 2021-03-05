@@ -2,19 +2,39 @@
     "servicios": [
         {
             "titulo":"Protección",
-            "imagen": "assets/imagenes/servicios/tetragranmaton.jpg"
+            "imagen": "assets/imagenes/servicios/tetragranmaton.jpg",
+            "url": "/page/servicio/proteccion",
+            "descripcion": [
+                "En nuestro santuario te acompañamos y te guiamos para liberarte de cualquier atadura, maleficio, brujería y te cubrimos bajo el manto de protección para que no estés expuesta al mal y a las envidias."
+            ]
         },
         {
             "titulo":"Amor",
-            "imagen": "assets/imagenes/servicios/san-antonio-de-padua.jpeg"
+            "imagen": "assets/imagenes/servicios/san-antonio-de-padua.jpeg",
+            "url": "/page/servicio/amor",
+            "descripcion": [
+                "En nuestro santuario, podrás obtener por fin la paz y tranquilidad de tener esa persona amada a tus pies.",
+                "En nuestro santuario te guiamos para que puedas atraer ese amor imposible que nunca has tenido.",
+                "Te garantizamos que, si tu pareja te abandono, te cambio por otra persona vuelva doblegado a tus pies.",
+                "Si tu pareja es del mismo sexo te garantizamos efectividad al 100% como si fuera pareja de diferente sexo."
+            ]
         },
         {
             "titulo":"Salud",
-            "imagen": "assets/imagenes/servicios/rosa mistica.jpg"
+            "imagen": "assets/imagenes/servicios/rosa mistica.jpg",
+            "url": "/page/servicio/salud",
+            "descripcion":[
+                "En nuestro santuario te garantizamos que te liberamos de cualquier mal que te impida tener una salud a plenitud.",
+                "Te guiamos para que conozcas tu cuerpo y lo aprendas a controlar."
+            ]
         },
         {
             "titulo":"Prosperidad",
-            "imagen": "assets/imagenes/servicios/san-cayetano.jpg"
+            "imagen": "assets/imagenes/servicios/san-cayetano.jpg",
+            "url": "/page/servicio/prosperidad",
+            "descripcion":[
+                "En nuestro santuario te guiamos para que puedas trascender y encontrar la plenitud para que puedas romper cualquier atadura que te impida recibir la abundancia."
+            ]
         }
 
     ]

@@ -16,4 +16,8 @@ export class DataService {
   getLinks():Observable<any>{
     return this.http.get("../../../assets/data/menu.json"); 
   }
+
+  getTestimonios():Observable<any>{
+    return this.http.get("../../../assets/data/testimonios.json"); 
+  }
 }
