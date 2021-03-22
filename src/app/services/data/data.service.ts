@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { menu_endpoint, servicios_endpoint, testimonios_endpoint } from 'src/environments/environment';
+import { menu_endpoint, servicios_endpoint, testimonios_endpoint, mensajes_endpoint } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -20,5 +20,9 @@ export class DataService {
 
   getTestimonios():Observable<any>{
     return this.http.get(testimonios_endpoint); 
+  }
+
+  getMensajes():Observable<any>{
+    return this.http.get(mensajes_endpoint); 
   }
 }

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "altares"
+    }
+  },
+  "defaultProject": "altares",
+  "cli": {
+    "analytics": "c7579a30-602a-467c-8d9a-610291aa6c56"
+  }
 }

@@ -5,8 +5,12 @@
             "url": "/inicio"
         },
         {
-            "titulo":"Oraciones",
-            "url": "/page/post/oraciones"
+            "titulo":"Servicios",
+            "url": "/inicio#servicios"
+        },
+        {
+            "titulo":"Testimonios",
+            "url": "/inicio#testimonios"
         },
         {
             "titulo":"Contacto",
