@@ -22,7 +22,10 @@ export class AppComponent implements OnInit {
   }
 
   inicializarComponentes(){
-    var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems, {});
+    let elems = document.querySelectorAll('.slider');
+    let instances = M.Slider.init(elems, {});
+
+    let elems2 = document.querySelectorAll('.sidenav');
+    let instances2 = M.Sidenav.init(elems2, {});
   }
 }

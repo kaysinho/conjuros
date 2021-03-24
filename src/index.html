@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Altares</title>
+  <title>Encanto de Amor</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -18,11 +18,17 @@
         <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 
-  if ( window.location.protocol=="http"){
-    if(window.location.host=="www.encantodelamor.com" && window.location.host=="encantodelamor.com"){
-      window.location.replace("https://www.encantodelamor.com");
+  const secure = () => {
+    if ( window.location.protocol=="http:"){
+      console.log('No es seguro')
+      if(window.location.host=="www.encantodelamor.com" || window.location.host=="encantodelamor.com"){
+
+        window.location.replace("https://www.encantodelamor.com");
+      }
     }
   }
+
+  secure();
 
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
   (function(){

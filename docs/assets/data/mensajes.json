@@ -1,7 +1,7 @@
 {
     "mensajes": [
         {
-            "imagen": "assets/imagenes/banner/imagen1.jpg",
+            "imagen": "assets/imagenes/banner/imagen4.jpg",
             "descripcion": [
                 "No pierda la fe, recuerda qué el momento más oscuro de la noche es el instante antes de amanecer. "
             ]
@@ -13,7 +13,7 @@
             ]
         },
         {
-            "imagen": "assets/imagenes/banner/imagen2.jpg",
+            "imagen": "assets/imagenes/banner/imagen1.jpg",
             "descripcion":[
                 " Tú no me estás solo, con nuestra cadena de oración y acompañamiento te protegemos y haremos que todo lo bueno llegue y que todo lo malo se vaya."
             ]

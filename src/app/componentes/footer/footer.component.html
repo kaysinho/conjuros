@@ -17,8 +17,10 @@
       <div class="col m4 s12">
         <h5 class="white-text">Menu Principal</h5>
         <ul>
-          <li *ngFor="let link of links"><a class="grey-text text-lighten-3" [routerLink]="link.url">{{ link.titulo}}</a></li>
-
+          <li  *ngFor="let link of links">
+            <a *ngIf="link.type=='route'" class="grey-text text-lighten-3" [routerLink]="link.url">{{ link.titulo}}</a>
+            <a class="grey-text text-lighten-3" *ngIf="link.type=='section'" [href]="link.url">{{ link.titulo}}</a>
+          </li>
         </ul>
       </div>
       <div class="col m4 s12">
