@@ -15,7 +15,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { TestimoniosComponent } from './componentes/testimonios/testimonios.component';
 import { TarjetasComponent } from './componentes/tarjetas/tarjetas.component';
 import { UrlPipe } from './pipes/url.pipe';
-import { AnuncioComponent } from './components/anuncio/anuncio.component';
+import { AnuncioComponent } from './componentes/anuncio/anuncio.component';
 
 @NgModule({
   declarations: [

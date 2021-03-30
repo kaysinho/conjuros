@@ -1,16 +1,13 @@
 .btn-whatsapp {
-    display:block;
-    width:60px;
-    height:60px;
-    color:#fff;
+    display: block;
     position: fixed;
-    left:20px;
-    bottom:20px;
-    border-radius:50%;
-    line-height:80px;
-    text-align:center;
-    z-index:999;
-    -webkit-box-shadow: 9px 10px 41px -21px rgba(0,0,0,0.75);
--moz-box-shadow: 9px 10px 41px -21px rgba(0,0,0,0.75);
-box-shadow: 9px 10px 41px -21px rgba(0,0,0,0.75);
+    left: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    line-height: 12px;
+    text-align: center;
+    z-index: 999;
+    -webkit-box-shadow: 9px 10px 41px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 10px 41px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 10px 41px -5px rgba(0, 0, 0, 0.75);
 }
