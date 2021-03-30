@@ -14,6 +14,8 @@ import { PageComponent } from './pages/page/page.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { TestimoniosComponent } from './componentes/testimonios/testimonios.component';
 import { TarjetasComponent } from './componentes/tarjetas/tarjetas.component';
+import { UrlPipe } from './pipes/url.pipe';
+import { AnuncioComponent } from './components/anuncio/anuncio.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { TarjetasComponent } from './componentes/tarjetas/tarjetas.component';
     PageComponent,
     ContactComponent,
     TestimoniosComponent,
-    TarjetasComponent
+    TarjetasComponent,
+    UrlPipe,
+    AnuncioComponent
   ],
   imports: [
     BrowserModule,

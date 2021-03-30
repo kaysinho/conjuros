@@ -1,19 +1,22 @@
-<nav class="black">
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">
-          <!--<img src="assets/imagenes/logo.png" width="45px">-->
-        </a>
+<div class="navbar-fixed">
 
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li *ngFor="let link of links" routerLinkActive="active">
-          <a *ngIf="link.type=='route'" [routerLink]="link.url">{{ link.titulo }}</a>
-          <a *ngIf="link.type=='section'" [href]="link.url">{{ link.titulo }}</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <nav class="black">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">
+            <!--<img src="assets/imagenes/logo.png" width="45px">-->
+          </a>
+  
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li *ngFor="let link of links" routerLinkActive="active">
+            <a *ngIf="link.type=='route'" [routerLink]="link.url">{{ link.titulo }}</a>
+            <a *ngIf="link.type=='section'" [href]="link.url">{{ link.titulo }}</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</div>
 
   <ul class="sidenav" id="mobile-demo">
     <li *ngFor="let link of links" routerLinkActive="active">

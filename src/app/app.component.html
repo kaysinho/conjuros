@@ -1,11 +1,17 @@
 <header>
   <app-menu></app-menu>
 </header>
+<section class=" red accent-4">
+  <app-anuncio [title] ="'¡Llamanos!'" [description]="'Nosotros te ayudaremos'" [phonenumber]="'+12103995568'"></app-anuncio>
+</section>
 <main>
 	<!--<audio src="./assets/audio/Audio.ogg" autoplay loop></audio>-->
   <router-outlet></router-outlet>
   <app-boton-whatsapp></app-boton-whatsapp>
 </main>
+<section class=" red accent-4">
+  <app-anuncio [title] ="'¡Llamanos!'" [description]="'Nosotros te ayudaremos'" [phonenumber]="'+12103995568'"></app-anuncio>
+</section>
 <footer class="page-footer black">
   <app-footer></app-footer>
 </footer>
