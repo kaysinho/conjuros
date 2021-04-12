@@ -16,6 +16,7 @@ import { TestimoniosComponent } from './componentes/testimonios/testimonios.comp
 import { TarjetasComponent } from './componentes/tarjetas/tarjetas.component';
 import { UrlPipe } from './pipes/url.pipe';
 import { AnuncioComponent } from './componentes/anuncio/anuncio.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AnuncioComponent } from './componentes/anuncio/anuncio.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule  
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

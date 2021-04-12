@@ -1,0 +1,12 @@
+[11-Apr-2021 16:51:13 America/Bogota] PHP Notice:  Undefined index: service in /home/encantod/public_html/api/email/contact-us.php on line 21
+[11-Apr-2021 16:51:13 America/Bogota] PHP Notice:  Undefined variable: error in /home/encantod/public_html/api/email/contact-us.php on line 23
+[11-Apr-2021 16:54:44 America/Bogota] PHP Notice:  Undefined index: service in /home/encantod/public_html/api/email/contact-us.php on line 21
+[11-Apr-2021 16:54:44 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/encantod/public_html/api/email/contact-us.php on line 22
+[11-Apr-2021 16:54:56 America/Bogota] PHP Notice:  Undefined index: service in /home/encantod/public_html/api/email/contact-us.php on line 21
+[11-Apr-2021 16:54:56 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/encantod/public_html/api/email/contact-us.php on line 22
+[11-Apr-2021 16:57:31 America/Bogota] PHP Notice:  Undefined index: service in /home/encantod/public_html/api/email/contact-us.php on line 21
+[11-Apr-2021 16:57:31 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/encantod/public_html/api/email/contact-us.php on line 22
+[11-Apr-2021 16:57:59 America/Bogota] PHP Notice:  Undefined index: service in /home/encantod/public_html/api/email/contact-us.php on line 21
+[11-Apr-2021 16:57:59 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/encantod/public_html/api/email/contact-us.php on line 22
+[11-Apr-2021 17:00:18 America/Bogota] PHP Notice:  Undefined index: service in /home/encantod/public_html/api/email/contact-us.php on line 22
+[11-Apr-2021 17:00:18 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/encantod/public_html/api/email/contact-us.php on line 23

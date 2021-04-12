@@ -8,8 +8,8 @@ import { PageComponent } from './pages/page/page.component';
 
 
 const routes: Routes = [
-  { path: '',   redirectTo: '/inicio', pathMatch: 'full' },
-  { component: HomeComponent, path: 'inicio' },
+  { path: '',   redirectTo: '/inicio/index', pathMatch: 'full' },
+  { component: HomeComponent, path: 'inicio/:section' },
   { component: PageComponent, path: 'page/:type/:pageId' },
   { component: ContactComponent, path: 'contacto' }
 ];
