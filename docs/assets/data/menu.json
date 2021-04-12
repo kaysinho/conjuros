@@ -2,18 +2,18 @@
     "links": [
         {
             "titulo":"Inicio",
-            "url": "/inicio",
+            "url": "/inicio/index",
             "type":"route"
         },
         {
             "titulo":"Servicios",
-            "url": "#servicios",
-            "type":"section"
+            "url": "/inicio/servicios",
+            "type":"route"
         },
         {
             "titulo":"Testimonios",
-            "url": "#testimonios",
-            "type":"section"
+            "url": "/inicio/testimonios",
+            "type":"route"
         },
         {
             "titulo":"Contacto",
