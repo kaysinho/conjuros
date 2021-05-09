@@ -1,7 +1,7 @@
-.btn-whatsapp {
+.btn-call {
     display: block;
     position: fixed;
-    left: 20px;
+    right: 150px;
     bottom: 20px;
     border-radius: 50%;
     line-height: 12px;
@@ -10,10 +10,9 @@
     -webkit-box-shadow: 9px 10px 41px -5px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 9px 10px 41px -5px rgba(0, 0, 0, 0.75);
     box-shadow: 9px 10px 41px -5px rgba(0, 0, 0, 0.75);
-
 }
 
-.btn-whatsapp:hover{
+.btn-call:hover{
     opacity: 0.8;
 }
 

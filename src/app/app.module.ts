@@ -17,6 +17,7 @@ import { TarjetasComponent } from './componentes/tarjetas/tarjetas.component';
 import { UrlPipe } from './pipes/url.pipe';
 import { AnuncioComponent } from './componentes/anuncio/anuncio.component';
 import { FormsModule } from '@angular/forms';
+import { BotonCallComponent } from './componentes/boton-call/boton-call.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FormsModule } from '@angular/forms';
     TestimoniosComponent,
     TarjetasComponent,
     UrlPipe,
-    AnuncioComponent
+    AnuncioComponent,
+    BotonCallComponent
   ],
   imports: [
     BrowserModule,
